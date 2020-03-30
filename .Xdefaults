@@ -1,0 +1,49 @@
+!------------------------------------------------------------------------------
+! c o l o r -  s e t t i n g s
+
+*background: #222222
+*foreground: #dddddd
+
+! Default
+! 0: black
+*color0:  #222222
+*color8:  #222222
+! 1: light yellow
+*color1:  #f2ffad
+*color9:  #f2ffad
+! 2: green
+*color2:  #92ac68
+*color10: #92ac68
+! 3: yellow
+*color3:  #d0d293
+*color11: #d0d293
+! 4: blue
+*color4:  #9aacc3
+*color12: #9aacc3
+! 5: magenta
+*color5:  #bb77a4
+*color13: #bb77a4
+! 6: cyan
+*color6:  #77bbb5
+*color14: #77bbb5
+! 7: white
+*color7:  #777777
+*color15: #777777
+
+!------------------------------------------------------------------------------
+! u r x v t
+
+!URxvt*geometry:         162x44
+!URxvt*font:            xft:terminus:size=7
+!URxvt*font:             xft:Bitstream Vera Sans Mono:pixelsize=10 Fallback:PowerlineSymbols.otf
+!URxvt.font: xft:Consolas:size=8, xft:Inconsolata for Powerline
+URxvt*font:xft:DejaVu\ Sans\ Mono:bold:pixelsize=16:antialias=true,xft:DejaVu\ Sans\ Mono\ for\ Powerline:pixelsize=14:antialias=true
+URxvt.letterSpace:  0
+URxvt*urlLauncher:      firefox  
+URxvt*scrollBar:        false
+URxvt*scrollBar_right:        true
+URxvt*scrollColor:        #000000
+URxvt.transparent:  true
+URxvt*shading: 30
+URxvt.saveLines: 1000000
+URxvt.geometry: 265x35
